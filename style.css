@@ -1,0 +1,140 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    color: black;
+}
+html,body{
+    width: 100%;
+    height: 100%;
+}
+#main{
+    display: flex;
+    width: 100%;
+    height: 100%;
+    background-color: white;
+    flex-wrap: wrap;
+}
+#header{
+    display: flex;
+    width: 100%;
+    height: 12%;
+    background-color: white;
+    position: fixed;
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 30px;
+}
+#company{
+    margin-left: 20px;
+    margin-top: 5px;
+    scale: 2.7;
+}
+#h-nav{
+    display: flex;
+    align-items: center;
+}
+#h-nav a{
+    margin-right: 30px;
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 25px;
+    color: grey;
+    transition: 0.5s;
+}
+#h-nav a:hover{
+    scale: 1.02;
+    color: black;
+}
+#display{
+    margin-top: 80px;
+    display: flex;
+    width: 100%;
+    height: 88%;
+    background-image: url(https://media.istockphoto.com/id/1488308284/photo/rough-gold-wall-abstract-background-beatiful-luxury-golden-texture-for-template-or-any-design.webp?b=1&s=170667a&w=0&k=20&c=C9ck5l2vpEsn9fCTwDD1XuxmwLHKe6gA0JsZHflxZxI=);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 20px;
+}
+#text{
+    height: 100%;
+    width: 60%;
+    margin-top: -55px;
+    font-size: 155px;
+    font-weight: 900;
+    color: white;
+}
+#image{
+    height: 100%;
+    width: 40%;
+}
+#d-image{
+    margin-left: 30px;
+    height: 570px;
+    width: 570px;
+    transition: 1s;
+}
+#d-image:hover{
+    scale: 1.15;
+    transform: rotate(-15deg) translate(-15%,0);
+}
+#menu{
+    width: 100%;
+    height: 620px;
+    background-color: rgb(230, 230, 230);
+}
+.card{
+    display: flex;
+    width: 250px;
+    height: 400px;
+    display: inline-block;
+    margin-top: 10px;
+    margin-left: 20px;
+    border-radius: 10px;
+    padding: 12px;
+    background-color:white;
+    transition: 0.75s;
+    color: black;
+    font-weight: 400;
+    position: relative;
+}
+.card img{
+    width: 100%;
+    height: 226px;
+    border-radius: 8px 8px 8px 8px;
+}
+.cont-card{
+    display: flex;
+    width: 100%;
+    justify-content: space-evenly;
+}
+#title{
+    margin-top : 10px;
+    margin-left: 50px;
+    font-size: 80px;
+    color: chocolate;
+}
+button{
+    background-color: rgb(255, 196, 0);
+    border: none;
+    padding: 7px;
+    padding-left: 50px;
+    padding-right: 50px;
+    border-radius: 12px;
+    font-weight: 700;
+    font-size: 17px;
+    transition: 0.75;
+}
+.btn{
+    display: flex;
+  height: 170px;
+  justify-content: center;
+  align-items: center;
+}
+.card:hover{
+    transform: scale(1.1);
+}
+button:hover{
+    color: white;
+}
